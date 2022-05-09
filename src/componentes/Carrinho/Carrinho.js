@@ -2,8 +2,8 @@ import React from "react";
 
 class Carrinho extends React.Component {
     render() {
-        console.log(produtos);
-        console.log(adicionarNoCarrinho);
+        // console.log(produtos);
+        // console.log(adicionarNoCarrinho);
         return(
            <div>
                 <h3>Carrrinho:</h3>
