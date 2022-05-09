@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import Carrinho from './componentes/Carrinho/Carrinho';
+import Home from './componentes/Home/Home';
 
 function App() {
   return (
     <div className="App">
       <Carrinho/>
+      <Home/>
      
     </div>
   );
