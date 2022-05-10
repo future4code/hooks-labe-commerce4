@@ -1,17 +1,11 @@
 import React from 'react';
-import Start from './componentes/Layout/Start/Start';
-import Navbar  from './componentes/Layout/Layout';
-import Filter from './componentes/Filter';
 
+import Produtos from './componentes/Produtos/Produtos';
 
-
-const App = () => {
-  return (
-  <Start />,
-  <Filter />,
-  <Navbar />  
-  )
-  
-};
+class App extends React.Component {
+  render() {
+    return <Produtos/>;
+  }
+}
 
 export default App;
