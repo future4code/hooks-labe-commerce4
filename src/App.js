@@ -1,15 +1,17 @@
 import React from 'react';
-import Carrinho from './componentes/Carrinho/Carrinho';
-import Home from './componentes/Home/Home';
+import Start from './componentes/Layout/Start/Start';
+import Navbar  from './componentes/Layout/Layout';
+import Filter from './componentes/Filter';
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
-      <Carrinho/>
-      <Home/>
-     
-    </div>
-  );
-}
+  <Start />,
+  <Filter />,
+  <Navbar />  
+  )
+  
+};
 
 export default App;
