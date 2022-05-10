@@ -1,11 +1,12 @@
 import React from "react";
 
-export class Carrinho extends React.Component {
+
+
+export class Produtos extends React.Component {
     state = {
       listaDeProdutos: [
-        { nome: "Produto 1" },
-        { nome: "Produto 2" },
-        { nome: "Produto 3" },
+        { id: 1, nome: "Camiseta 1", valor: "R$ 250,00", img: },
+        { id: 3, nome: "Camiseta 2", valor: "R$180,00", img:  },
       ],
     };
   
@@ -23,17 +24,20 @@ export class Carrinho extends React.Component {
             >
               {produto.nome}
             </div>
+            // <ProductCard>
+            //   {produto.nome}
+            // </ProductCard>
+          );
+        }
+      );
+  
+      return (
+        <div>
+          <h1>Produtos</h1>
+          {listaDeProdutosComponentes}
+        </div>
       );
     }
-  );
-
-  return (
-    <div>
-      <h1>Produtos</h1>
-      {listaDeProdutosComponentes}
-    </div>
-  );
-}
-}
-
-export default Carrinho
+  }
+  
+  export default Produtos

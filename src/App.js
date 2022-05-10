@@ -1,15 +1,10 @@
 import React from 'react';
-import Carrinho from './componentes/Carrinho/Carrinho';
-import Home from './componentes/Home/Home';
+import Produtos from './componentes/Produtos/Produtos';
 
-function App() {
-  return (
-    <div className="App">
-      <Carrinho/>
-      <Home/>
-     
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return <Produtos/>;
+  }
 }
 
 export default App;
