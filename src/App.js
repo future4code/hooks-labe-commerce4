@@ -15,16 +15,16 @@ import produto10 from "./img/produto10.jpg";
 
 
 const produtos = [
-  { id: 1, nome: "Camiseta 1", valor: 200.00, img: produto1 },
-  { id: 3, nome: "Camiseta 2", valor: 200.00, img: produto2 },
-  { id: 3, nome: "Camiseta 3", valor: 200.00, img: produto3 },
-  { id: 3, nome: "Camiseta 4", valor: 200.00, img: produto4 },
-  { id: 3, nome: "Camiseta 5", valor: 200.00, img: produto5 },
-  { id: 3, nome: "Camiseta 6", valor: 200.00, img: produto6 },
-  { id: 3, nome: "Camiseta 7", valor: 200.00, img: produto7 },
-  { id: 3, nome: "Camiseta 8", valor: 200.00, img: produto8 },
-  { id: 3, nome: "Camiseta 9", valor: 200.00, img: produto9 },
-  { id: 3, nome: "Camiseta 10", valor:200.00, img: produto10 }
+  { id: 1, nome: "Camiseta Space Boy", valor: 180.00, img: produto1 },
+  { id: 2, nome: "Camiseta Space Moon", valor: 100.00, img: produto2 },
+  { id: 3, nome: "Camiseta Space Art", valor: 200.00, img: produto3 },
+  { id: 4, nome: "Camiseta Lost in Space", valor: 500.00, img: produto4 },
+  { id: 5, nome: "Camiseta Space Guitar", valor: 400.00, img: produto5 },
+  { id: 6, nome: "Camiseta Space Rock", valor: 260.00, img: produto6 },
+  { id: 7, nome: "Camiseta Space Art", valor: 70.00, img: produto7 },
+  { id: 8, nome: "Camiseta Give me Some Space", valor: 92.00, img: produto8 },
+  { id: 9, nome: "Camiseta NASA", valor: 300.00, img: produto9 },
+  { id: 10, nome: "Camiseta Space Alien", valor: 50.00, img: produto10 }
 ]
 
 
