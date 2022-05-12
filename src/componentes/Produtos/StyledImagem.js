@@ -2,18 +2,18 @@ import Styled from "styled-components";
 
 
 export const StyledCardProduto = Styled.div`
-height: 500px;
-width: 500px;
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 16px;
-padding: 17px;
+/* height: 300px;
+width: 300px;
+background: red;
+display: inline; */
+display: flex;
+justify-content: center;
 border: 1px black solid;
 `
 
 export const StyledImagem = Styled.div`
 display: flex;
-
-height: 100px;
-width: 100px;
+justify-content; center;
+height: 200px;
+width: 200px;
 `

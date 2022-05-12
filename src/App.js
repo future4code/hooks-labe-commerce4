@@ -1,3 +1,82 @@
+// import React from "react";
+// import Home from "./componentes/Home/Home";
+
+import { StyledCardProduto } from './componentes/Produtos/StyledImagem';
+
+
+
+// class App extends React.Componet {
+//   render () {
+//     return (
+//       <div>
+//         <Home></Home>
+//       </div>
+//     )
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React from 'react';
 import Carrinho from "./componentes/Carrinho/Carrinho";
 import Produtos from "./componentes/Produtos/Produtos";
@@ -9,7 +88,7 @@ import produto5 from "./img/produto5.jpg";
 import produto6 from "./img/produto6.jpg";
 import produto7 from "./img/produto7.jpg";
 import produto8 from "./img/produto8.jpg";
-import produto9 from "./img/produto8.jpg";
+import produto9 from "./img/produto9.jpg";
 import produto10 from "./img/produto10.jpg";
 
 
@@ -77,14 +156,14 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <Produtos produtos={produtos} addProduto={this.addProduto} />
+    <div>
+        <StyledCardProduto><Produtos produtos={produtos} addProduto={this.addProduto} /></StyledCardProduto>
         <Carrinho
           carrinho={this.state.carrinho}
           removeProduto={this.removeProduto}
           addProduto={this.addProduto}
         />
-      </div>
+        </div>
     );
   }
 }
@@ -99,12 +178,3 @@ export default App;
 
 
 
-// import Produtos from './componentes/Produtos/Produtos';
-
-// class App extends React.Component {
-//   render() {
-//     return <Produtos/>;
-//   }
-// }
-
-// export default App;
