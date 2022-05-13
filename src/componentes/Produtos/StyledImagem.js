@@ -13,7 +13,7 @@ border: 1px black solid;
 
 export const StyledImagem = Styled.div`
 display: flex;
-justify-content; center;
+justify-content: center;
 height: 200px;
 width: 200px;
 `
